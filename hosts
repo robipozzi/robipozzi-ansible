@@ -1,0 +1,13 @@
+[local]
+#localhost
+127.0.0.1
+
+[raspberry]
+raspberry1
+raspberry2
+
+[raspberry_proxy]
+raspberry1
+
+[raspberry_appserver]
+raspberry2
