@@ -18,11 +18,11 @@ The **[ping.sh](raspberry/ping.sh)** script in *raspberry* folder tries to ping 
 
 The **[raspberry.yaml](raspberry/raspberry.yaml)** playbook is provided to do the following tasks:
 
-    * update package manager repo cache and upgrade installed packages on all Raspberry Pi boxes
-    * install OpenSSL on all Raspberry Pi boxes
-    * install Docker on all Raspberry Pi boxes
-    * install Nginx on Raspberry Pi boxes marked as proxies and copy utility scripts for Nginx (provided in the *scripts* sub-folder)
-    * install Apache2 on Raspberry Pi boxes marked as application servers and copy utility scripts for Apache2 (provided in the *scripts* sub-folder)
+- update package manager repo cache and upgrade installed packages on all Raspberry Pi boxes
+- install OpenSSL on all Raspberry Pi boxes
+- install Docker on all Raspberry Pi boxes
+- install Nginx on Raspberry Pi boxes marked as proxies and copy utility scripts for Nginx (provided in the *scripts* sub-folder)
+- install Apache2 on Raspberry Pi boxes marked as application servers and copy utility scripts for Apache2 (provided in the *scripts* sub-folder)
 
 Some convenient scripts are provided:
 * **[install-docker-role.sh](raspberry/install-docker-role.sh)**, which installs *geerlingguy.docker_arm* role (see Ansible Galaxy https://galaxy.ansible.com/geerlingguy/docker_arm and GitHub Repo https://github.com/geerlingguy/ansible-role-docker_arm for more info) that installs Docker on Linux, specially tailored for ARM-based computers like the Raspberry Pi.
