@@ -28,10 +28,15 @@ You can run **[ping.sh](ping.sh)** script to test Ansible is working correctly.
 ## Raspberry
 For Ansible to work correctly, SSH public key shall be exchanged with the hosts Ansible manage, run **[ansible-initialize.sh](raspberry/ansible-initialize.sh)** script to copy the public part of Ansible key pair.
 ```
+cd $HOME/dev/devops/robipozzi-ansible/raspberry
 ./ansible-initialize.sh
 ```
 
 The **[ping.sh](raspberry/ping.sh)** script in *raspberry* folder tries to ping all Raspberry hosts, run it and verify Ansible is able to connect to Raspberry hosts and is working correctly.
+```
+cd $HOME/dev/devops/robipozzi-ansible/raspberry
+./ping.sh
+```
 
 The **[raspberry.yaml](raspberry/raspberry.yaml)** playbook is provided to do the following tasks:
 
