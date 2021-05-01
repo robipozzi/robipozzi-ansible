@@ -9,6 +9,13 @@ Ensure environment is correctly configured and do the following:
 3. Run **[config-ansible.sh](config-ansible.sh)** script that copies **[ansible.cfg](ansible.cfg)** and **[hosts](hosts)** files to */etc/ansible* folder to setup basic Ansible configuration
 4. On Mac workstation: turn on Remote Login under System Preferences then File Sharing
 
+Clone this repository 
+```
+mkdir $HOME/dev/devops
+cd $HOME/dev/devops
+git clone https://github.com/robipozzi/robipozzi-ansible
+```
+
 You can run **[ping.sh](ping.sh)** script to test Ansible is working correctly.
 
 ## Raspberry
