@@ -3,11 +3,11 @@
 127.0.0.1
 
 [raspberry]
-raspberry1
-raspberry2
+raspberry01
+raspberry02
 
 [raspberry_proxy]
-raspberry1
+raspberry01
 
 [raspberry_appserver]
-raspberry2
+raspberry02
