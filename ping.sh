@@ -1,1 +1,1 @@
-ansible local -m ping
+ansible local -m ping -vvv
